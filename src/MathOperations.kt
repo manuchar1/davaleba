@@ -27,16 +27,18 @@ class MathOperations {
 
     }
 
-    fun reversedNum (){
-        var reversed = 0
-        var number = 456
+    fun reversedNumber (number: Int):Int{
+        var reverse = 0
 
+        var n = number
 
-        while (number != 0) {
-            val digit = number % 10
-            reversed = reversed * 10 + digit
-            number /= 10
+        while (n > 0) {
+            reverse = reverse * 10 + n % 10
+
+            n /= 10
         }
+
+        return reverse
 
 
     }

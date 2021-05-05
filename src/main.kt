@@ -15,7 +15,7 @@ fun main(){
     println(result.sumEven(2,100))
 
     // შებრუნებული რიცხვი
-    println(result.reversedNum())
+    println(result.reversedNumber(1234))
 
     // სტრინგი არის თუ არა პალინდრომი
     println(result.palindromeWords("racecar"))
